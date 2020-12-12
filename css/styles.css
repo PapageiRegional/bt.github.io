@@ -850,14 +850,20 @@ input[type='checkbox'] {
 /*     06. Description     */
 /***************************/
 .cards-1 {
-	padding-top: 3rem;
-	padding-bottom: 2.875rem;
+	padding-top: 400px;
+	padding-bottom: 400px;
+	text-align: center;
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('../images/details-2-background.jpg') center center no-repeat;
+	background-size: cover;
+	color:black;
+	
 }
 
 .cards-1 .card {
 	margin-bottom: 2.5rem;
 	border: none;
 	text-align: center;
+	color:white;
 }
 
 .cards-1 .fa-stack {
@@ -868,6 +874,7 @@ input[type='checkbox'] {
 	margin-left: auto;
 	line-height: 6rem;
 	text-align: left;
+	color: white;
 }
 
 .cards-1 .fa-stack .hexagon {
@@ -885,10 +892,12 @@ input[type='checkbox'] {
 
 .cards-1 .card-body {
 	padding: 0;
+	color: black;
 }
 
 .cards-1 .card-title {
 	margin-bottom: 0.625rem;
+	color: white;
 }
 
 
@@ -1229,6 +1238,7 @@ input[type='checkbox'] {
 
 .slider .card .card-body {
 	padding-bottom: 0;
+	color:white;
 }
 
 .slider .testimonial-text {
@@ -2101,11 +2111,14 @@ a:hover.back-to-top {
 		max-width: 17.5rem;
 		text-align: left;
 		vertical-align: top;
+		background-color: unset;
+		color: white;
 	}
 	
 	.cards-1 div.card:nth-child(3n+2) {
 		margin-right: 2.5rem;
 		margin-left: 2.5rem;
+		color: white;
 	}
 	/* end of description */
 
@@ -2297,6 +2310,7 @@ a:hover.back-to-top {
 	/* Description */
 	.cards-1 .card {
 		max-width: 21rem;
+		color: white;
 	}
 
 	.cards-1 div.card:nth-child(3n+2) {
