@@ -38,10 +38,15 @@ Layout
 ======== */
 
 header {
-  background-color: #0f24e6;
+  background-color: #2e2d2b;
   color: white;
   padding: 30px 0;
   text-align: center;
+}
+
+.bodystyle {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .intro {
@@ -61,6 +66,9 @@ header {
 
 .columns {
   display: flex;
+
+  flex: 1;
+  justify-content: space-around;
 }
 
 .column {
